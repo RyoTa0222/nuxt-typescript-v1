@@ -1,6 +1,4 @@
-# nuxt-typescript-v1
-
-## Build Setup
+# Build Setup
 
 ```bash
 # install dependencies
@@ -18,16 +16,21 @@ $ yarn generate
 ```
 
 # UI Framework
+
 Tailwind CSS : https://tailwindcss.com/docs
 
 # HTTP Client
+
 Axios
 
 # Lint Tool
+
 Eslint, Prettier
 
 # Rendering Mode
+
 Universal(SSG)
 
-# storeの型宣言に用いるライブラリ
+# store の型宣言に用いるライブラリ
+
 https://typed-vuex.roe.dev/

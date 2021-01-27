@@ -1,6 +1,4 @@
-# nuxt-typescript-v1
-
-## Build Setup
+# Build Setup
 
 ```bash
 # install dependencies
@@ -36,3 +34,9 @@ Universal(SSG)
 # store の型宣言に用いるライブラリ
 
 https://typed-vuex.roe.dev/
+
+# git のリモートの URL を変更する場合
+
+```
+git git remote set-url origin [変更後の情報]
+```
