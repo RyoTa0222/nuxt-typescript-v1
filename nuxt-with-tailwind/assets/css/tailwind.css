@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply min-h-screen;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+li {
+  @apply font-fot;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#__layout {
+  z-index: -999;
+}
+
+#container {
+  z-index: 0;
+}
+
+.splash-fade-leave-active {
+  animation: splash-fade 3s;
+}
+
+@keyframes splash-fade {
+  0% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-5%);
+    opacity: 0;
+  }
+}
+
+.slide-enter-active {
+  transition: transform 1s;
+  transform: translateX(0%);
+}
+.slide-enter {
+  transform: translateX(-200%);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fast-fade-enter-active,
+.fast-fade-leave-active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.fast-fade-enter,
+.fast-fade-leave-to {
+  opacity: 0;
+}
+
+.page-fade-enter-active,
+.page-fade-leave-active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.page-fade-enter,
+.page-fade-leave-to {
+  opacity: 0;
+}
