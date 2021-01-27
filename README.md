@@ -74,6 +74,8 @@ Eslint, Prettier
 
 Universal(SSG)
 
-## store の型宣言に用いるライブラリ
+---
+
+# store の型宣言に用いるライブラリ
 
 https://typed-vuex.roe.dev/
